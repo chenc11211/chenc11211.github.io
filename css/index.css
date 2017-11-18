@@ -46,6 +46,7 @@ ul{
 #header_nav .logo img{
     width: 50px;
     height: 50px;
+    border: none;
     vertical-align: middle;
 }
 #header_nav .logo span{
@@ -60,7 +61,10 @@ ul{
 #header_nav .info ul li{
     display: inline-block;
 }
-
+#mobile{
+    padding-right: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+}
 #user{
     border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -106,9 +110,10 @@ ul{
     top: -10px;
     left: 65px;
 }
-
-
-
+#wechat_QR img{
+    width: 140px;
+    height: 140px;
+}
 
 
 #main_container{
@@ -326,6 +331,7 @@ ul{
     position: relative;
     /*display: none;*/
     opacity: 0;
+    /*filter: alpha(0);*/
     overflow: visible !important;
 
 
@@ -382,7 +388,6 @@ ul{
     width: 140px;
     height: 180px;
     border-radius: 3px;
-    background-color: #94ceff;
     font-size: 20px;
     text-align: center;
     line-height: 150px;
@@ -391,6 +396,27 @@ ul{
     position: relative;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
+}
+#study_list li:nth-child(1) div{
+    background-color: #c56364;
+}
+#study_list li:nth-child(2) div{
+    background-color: #5bb058;
+}
+#study_list li:nth-child(3) div{
+    background-color: #4998bd;
+}
+#study_list li:nth-child(4) div{
+    background-color: #dfa857;
+}
+#study_list li:nth-child(5) div{
+    background-color: #34ada6;
+}
+#study_list li:nth-child(6) div{
+    background-color: #6475bf;
+}
+#study_list li:nth-child(7) div{
+    background-color: #81b7e8;
 }
 
 #study_list li:after{
