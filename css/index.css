@@ -11,8 +11,8 @@ body{
     height: 100%;
 }
 a{
-    text-decoration: none;
-    color: #000;
+
+    color: #467fb2;
 }
 a:hover{
     text-decoration: underline;
@@ -608,6 +608,22 @@ ul{
 #about_me dd{
     line-height: 20px;
     margin-bottom: 10px;
+}
+
+#github{
+    position: fixed;
+    top: 80px;;
+    right: 50px;
+    opacity: 0.5;
+    filter: alpha(50);
+    transition: all 0.3s;
+}
+#github img{
+    width: 50px;
+}
+#github:hover{
+    opacity: 1;
+    filter: alpha(100);
 }
 
 
