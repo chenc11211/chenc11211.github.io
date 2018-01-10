@@ -90,7 +90,7 @@ $(function () {
                 fontSize:16
             },
             data:
-                ['java', 'javascript', 'html', 'css', 'jquery', 'php', 'mysql', 'bootstrap', 'photoshop']
+                ['java', 'javascript', 'html', 'css', 'jquery', 'php', 'mysql', 'bootstrap', 'Vue', 'ES6', 'photoshop']
         },
         yAxis:{
             max:100
@@ -99,7 +99,7 @@ $(function () {
             name:'技能',
             type:'bar',
             data:[
-                [0, 30,'了解'], [1, 60,'掌握'],[2,70,'掌握'],[3,80,'掌握'],[4,80,'掌握'],[5,50,'了解PHP的基础，及一般常用函数'],[6,30,'一般的SQL语句，PHPmyadmin基本操作'],[7,50,'基本应用及布局'],[8,60,'掌握ps的大多数工具']
+                [0, 30,'了解'], [1, 70,'掌握'],[2,70,'掌握'],[3,80,'掌握'],[4,80,'掌握'],[5,50,'了解PHP的基础，及一般常用函数'],[6,30,'一般的SQL语句，PHPmyadmin基本操作'],[7,50,'基本应用及布局'], [8, 70, '基本掌握Vue框架应用'], [9, 50, 'ES6基础'],[10,60,'掌握ps的大多数工具']
             ]
         }]
     };
@@ -163,8 +163,8 @@ $(function () {
         var target_id;
         if(oEvent.wheelDelta<0){
             target_id=current_id+1;
-            if(target_id>5){
-                target_id=5;
+            if(target_id>6){
+                target_id=6;
             }
         }else {
             target_id=current_id-1;
@@ -184,8 +184,8 @@ $(function () {
         var target_id;
         if(oEvent.detail>0){
             target_id=current_id+1;
-            if(target_id>5){
-                target_id=5;
+            if(target_id>6){
+                target_id=6;
             }
         }else {
             target_id=current_id-1;

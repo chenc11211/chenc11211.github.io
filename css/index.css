@@ -148,13 +148,16 @@ ul{
 #content_part4{
     background-color: #bab93d;
 }
-#content_part5{
+#content_part5 {
+    background-color: deepskyblue;
+}
+#content_part6{
     background-color: #bcffff;
 }
 
 #content_nav{
     width: 20px;
-    height: 110px;
+    height: 130px;
     border-radius: 10px;
     position: fixed;
     right: 10px;
@@ -581,9 +584,36 @@ ul{
     float: right;
     display: none;
 }
+/* 第五页 */
+#demo-vue{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    margin-top: -300px;
+    background-color: #fff;
+}
+#demo-vue>h4{
+    font-size: 26px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#demo-vue>h4 span{
+    border: 1px solid #000;
+}
+#demo-vue .project_info{
+    float: left;
+    margin-left: 10px;
+}
+#demo-vue .img_list{
+    float: right;
+}
+#demo-vue .img_list li>div{
+    display: inline-block;
+    vertical-align: middle;
+}
 
-
-/*第五页*/
+/*第六页*/
 #about_me{
     width: 1200px;
     height: 600px;
